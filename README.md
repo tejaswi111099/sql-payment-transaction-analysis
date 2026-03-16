@@ -1,12 +1,10 @@
 # SQL Payment Transaction Analysis
 
-## Project Overview
-This project analyzes payment transaction data using SQL to understand business insights such as transaction volume, revenue generation, payment success rate, and customer behavior.
-
-The goal of this project is to demonstrate practical SQL skills used in data analytics and fintech environments.
+## Overview
+This project analyzes payment transaction data using SQL to extract business insights such as revenue trends, payment success rates, and payment method usage.
 
 ## Dataset
-The dataset contains payment transaction records with the following fields:
+The dataset contains payment transaction information including:
 
 - payment_id
 - customer_id
@@ -17,24 +15,16 @@ The dataset contains payment transaction records with the following fields:
 - country
 - payment_date
 
-## Tools Used
+## Analysis Performed
+- Total transaction count
+- Payment success vs failure analysis
+- Total revenue calculation
+- Revenue by country
+- Most used payment methods
+
+## Tools
 - SQL
 - GitHub
-- Data analysis techniques
 
-## SQL Analysis Performed
-The following analyses were performed:
-
-1. View the complete dataset
-2. Count total number of transactions
-3. Analyze success vs failed payments
-4. Calculate total revenue from successful payments
-5. Analyze revenue by country
-6. Identify most used payment methods
-
-## Example Queries
-
-```sql
-SELECT status, COUNT(*) AS transaction_count
-FROM payments
-GROUP BY status;
+## Author
+Tejaswi Kondhiya
