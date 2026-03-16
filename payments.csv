@@ -1,0 +1,11 @@
+payment_id,customer_id,amount,currency,payment_method,status,country,payment_date
+1,C001,120,USD,Card,success,USA,2025-01-01
+2,C002,80,USD,UPI,success,India,2025-01-02
+3,C003,50,USD,Card,failed,UK,2025-01-02
+4,C001,200,USD,Card,success,USA,2025-01-03
+5,C004,90,USD,Bank Transfer,success,Germany,2025-01-04
+6,C002,60,USD,UPI,failed,India,2025-01-05
+7,C005,300,USD,Card,success,USA,2025-01-05
+8,C006,40,USD,UPI,success,India,2025-01-06
+9,C007,150,USD,Card,success,Canada,2025-01-07
+10,C003,70,USD,Bank Transfer,success,UK,2025-01-08
